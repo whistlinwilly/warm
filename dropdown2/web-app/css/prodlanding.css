@@ -1,0 +1,27 @@
+#orig{
+position: absolute;
+margin-left: 234px;
+margin-top: -61px;
+z-index: 1;
+}
+
+#joints{
+position: absolute;
+margin-left: 611px;
+margin-top: -61px;
+z-index: 1;
+}
+
+#skin{
+position: absolute;
+margin-left: 234px;
+margin-top: 191px;
+z-index: 0;
+}
+
+#fit{
+position: absolute;
+margin-left: 611px;
+margin-top: 191px;
+z-index: 0;
+}

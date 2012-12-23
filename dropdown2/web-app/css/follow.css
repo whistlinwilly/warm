@@ -1,0 +1,36 @@
+#copy{
+position:absolute;
+margin-left:208px;
+margin-top:68px;
+font-size:20px;
+}
+
+#twit{
+position: absolute;
+margin-left: 416px;
+margin-top: 116px;
+}
+
+#fb{
+position: absolute;
+margin-left: 755px;
+margin-top: 136px;
+}
+
+#blog{
+position: absolute;
+margin-left: 937px;
+margin-top: 327px;
+}
+
+#gplus{
+position: absolute;
+margin-left: 572px;
+margin-top: 321px;
+}
+
+#pinit{
+position: absolute;
+margin-left: 234px;
+margin-top: 300px;
+}

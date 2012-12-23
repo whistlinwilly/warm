@@ -1,0 +1,12 @@
+package dropdown
+
+class FaqController {
+
+static navigation = true
+
+    def index() {
+		def testVar = "1"
+        render(view:"Faq", model: [question:testVar])
+         }
+
+}

@@ -1,0 +1,97 @@
+#title{
+position:absolute;
+margin-left:37%;
+font-size:35px;
+color:#9e6a55;
+z-index:2;
+}
+
+#feedIns{
+position: absolute;
+margin-top: 57%;
+margin-left: 14%;
+width: 174px;
+height: 65px;
+}
+
+#hrBreak{
+position: absolute;
+z-index: 5;
+width: 55%;
+margin-left: 37%;
+height: 3px;
+border-width: 0;
+background-color: #9E6A55;
+margin-top: 43px;
+z-index:-1;
+}
+
+#copy{
+position: absolute;
+margin-left: 38%;
+margin-top: 10%;
+width: 54%;
+text-align: justify;
+}
+
+.table{
+position: absolute;
+margin-left: 46%;
+margin-top: 35%;
+width: 32%;
+border-style: solid;
+border-width: 1px;
+padding: 4px;
+font-size: 14px;
+}
+
+#item{
+position:absolute;
+top:28px;
+width:50%;
+
+}
+
+#maxmin{
+position:absolute;
+left:50%;
+top:28px;
+width:20%;
+}
+
+#value{
+position:absolute;
+left:70%;
+width:25%;
+text-align:right;
+}
+
+#disclaimer{
+font-size:12px;
+margin-top:38%;
+}
+
+#ingredients{
+position: absolute;
+margin-left: 38%;
+margin-top: 24%;
+width: 53%;
+}
+
+#bottomDisclaimer{
+position: absolute;
+margin-left: 23%;
+margin-top: 70%;
+font-size: 13px;
+padding: 2px;
+border-style: solid;
+border-width: 2px;
+}
+
+#productpic{
+position: absolute;
+margin-left: 3%;
+height: 430px;
+width: 430px;
+margin-top: -2%;
+}

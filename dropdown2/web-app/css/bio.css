@@ -1,0 +1,24 @@
+#copy{
+position:absolute;
+margin-left:586px;
+width: 40%;
+text-align:justify;
+z-index:-1;
+}
+
+#name{
+position:absolute;
+margin-left:195px;
+margin-top:375px;
+width:19%;
+text-align:center;
+font-size:30px;
+z-index:-1;
+}
+
+#pic{
+position:absolute;
+margin-left:195px;
+margin-top:7px;
+z-index:-1;
+}

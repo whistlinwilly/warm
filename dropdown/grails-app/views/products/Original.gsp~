@@ -1,0 +1,62 @@
+<html>
+<g:render template="/navbar"></g:render>
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'nav.css')}" type="text/css">
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'product.css')}" type="text/css">
+<body>
+<div id="title">
+Original Recipe
+</div>
+<hr id="hrBreak">
+
+<img id="productpic" src="${resource(dir: 'images', file: 'original.jpg')}" width="330px" height="330px">
+<img id="feedIns" src="${resource(dir: 'images', file: 'feed_ins.jpeg')}">
+
+<div id="copy">
+Warm Ups! Original helps assure your dog is getting complete nutrition by adding 3 key vitamins (Choline, Folic Acid and Vitamin B12) and a key mineral (Iron) to every bowl.  These four essential nutrients each support multiple vital functions for your dog and help to assure his or her continued good health.
+</div>
+
+<div class="table">
+<u><b>Guaranteed Analyses</b></u>
+<div id="item">
+Crude Protein<br>
+Crude Fat<br>
+Crude Fiber<br>
+Moisture<br>
+Iron<br>
+<g:link controller="products" action="glossary">Folic Acid</g:link><br>
+<g:link controller="products" action="glossary">Vitamin B12</g:link><br>
+<g:link controller="products" action="glossary">Choline</g:link>
+</div>
+<div id="maxmin">
+Min.<br>
+Min.<br>
+Max.<br>
+Max.<br>
+Min.<br>
+Min.<br>
+Min.<br>
+Min.
+</div>
+<div id="value">
+12%<br>
+4%<br>
+3%<br>
+12%<br>
+120 mg/kg<br>
+0.30 mg/kg<br>
+0.03 mg/kg<br>
+2,000 mg/kg
+</div>
+<div id="disclaimer">
+*Not recognized as an essential nutrient by the AAFCO Dog Food Nutrient Profiles.
+</div>
+</div>
+
+<div id="ingredients">
+Ingredients: Oatmeal, Natural Flavor, Brewers Rice, Barley, Canola Oil, Vitamins (Riboflavin Supplement, Pyridoxine Hydrochloride), Flaxseed, Zinc Oxide, Mixed Tocopherols (Natural Preservative), Citric Acid (Natural Preservative), Rosemary Extract.
+</div>
+<div id="bottomDisclaimer">
+Please remember that Warm Ups! Original is a supplemental food and is not intended to be your dog’s sole diet.
+</div>
+</body>
+</html>

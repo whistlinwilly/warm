@@ -1,0 +1,8 @@
+<html>
+<head>
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'nav.css')}" type="text/css">
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'home.css')}" type="text/css">
+</head>
+<body>
+<g:render template="/navbar"></g:render>
+

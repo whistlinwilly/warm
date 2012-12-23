@@ -1,0 +1,202 @@
+body{
+min-height: 113%;
+background: #730000; /* Old browsers */
+background: -moz-linear-gradient(top,  #730000 0%, #ed1b24 16%, #ed1b24 55%, #730000 87%, #510000 87%, #510000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#730000), color-stop(16%,#ed1b24), color-stop(55%,#ed1b24), color-stop(87%,#730000), color-stop(87%,#510000), color-stop(100%,#510000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #730000 0%,#ed1b24 16%,#ed1b24 55%,#730000 87%,#510000 87%,#510000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #730000 0%,#ed1b24 16%,#ed1b24 55%,#730000 87%,#510000 87%,#510000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #730000 0%,#ed1b24 16%,#ed1b24 55%,#730000 87%,#510000 87%,#510000 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #730000 0%,#ed1b24 16%,#ed1b24 55%,#730000 87%,#510000 87%,#510000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#730000', endColorstr='#510000',GradientType=0 ); /* IE6-9 */
+
+}
+
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+	float: right;
+	margin-top:3%;
+	margin-right: 10%;
+	padding-left:10%;
+  height: 35px;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  background: #461313;
+  background: -moz-linear-gradient(top, #919191 0%, #461313 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #919191), color-stop(100%, #461313));
+  background: -webkit-linear-gradient(top, #919191 0%, #461313 100%);
+  background: -o-linear-gradient(top, #919191 0%, #461313 100%);
+  background: -ms-linear-gradient(top, #919191 0%, #461313 100%);
+  background: linear-gradient(to bottom, #919191 0%, #461313 100%);
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#919191', EndColorStr='#461313', GradientType=0);
+  border-bottom: 2px solid #d7d7d7;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  background: #461313;
+  background: -moz-linear-gradient(top, #919191 0%, #461313 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #919191), color-stop(100%, #461313));
+  background: -webkit-linear-gradient(top, #919191 0%, #461313 100%);
+  background: -o-linear-gradient(top, #919191 0%, #461313 100%);
+  background: -ms-linear-gradient(top, #919191 0%, #461313 100%);
+  background: linear-gradient(to bottom, #919191 0%, #461313 100%);
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#919191', EndColorStr='#461313', GradientType=0);
+  color: #ed1e26;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 160;
+  line-height: 35px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul {
+  float: left;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d7d7d7;
+  margin-left: -10px;
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+}
+#cssmenu > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a {
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  background: #461313;
+  background: -moz-linear-gradient(top, #000000 0%, #461313 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #461313));
+  background: -webkit-linear-gradient(top, #000000 0%, #461313 100%);
+  background: -o-linear-gradient(top, #000000 0%, #461313 100%);
+  background: -ms-linear-gradient(top, #000000 0%, #461313 100%);
+  background: linear-gradient(to bottom, #000000 0%, #461313 100%);
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#000000', EndColorStr='#461313', GradientType=0);
+}
+#cssmenu > ul > li:hover > a {
+  background: #461313;
+  background: -moz-linear-gradient(top, #000000 0%, #461313 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #461313));
+  background: -webkit-linear-gradient(top, #000000 0%, #461313 100%);
+  background: -o-linear-gradient(top, #000000 0%, #461313 100%);
+  background: -ms-linear-gradient(top, #000000 0%, #461313 100%);
+  background: linear-gradient(to bottom, #000000 0%, #461313 100%);
+  filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#000000', EndColorStr='#461313', GradientType=0);
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+}
+#cssmenu .has-sub {
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+  background: #d7d7d7;
+  border-bottom: 1px dotted #ec6f73;
+  filter: none;
+  font-size: 11px;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #919191;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #919191;
+  border-bottom: 1px dotted #d06d70;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #5c5c5c;
+}
+
+
+
+#logo{
+	position:absolute;
+	float:left;
+	margin-left:10%;
+	margin-top:1%;
+	width:17%;
+
+}
+
+#flag{
+	position:absolute;
+	bottom:-13%;
+	margin-left:72%;
+	width:8%;
+}
+
+#bottom{
+	color:#ffffff;
+	position:absolute;
+	top:97%;
+	margin-left:15%;
+	margin-top:3px;
+	width:35%;
+	float:left;
+	height:13%;
+
+}
+
+
+
+
+
+
+

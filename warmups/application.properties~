@@ -1,0 +1,8 @@
+#Grails Metadata file
+#Thu Dec 13 00:34:03 EST 2012
+app.grails.version=2.1.1
+app.name=warmups
+app.version=0.1
+plugins.cloud-foundry=1.2.3
+grails.plugin.cloudfoundry.username = "contactwarmups@gmail.com"
+grails.plugin.cloudfoundry.password = "4coS0PVT"

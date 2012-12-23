@@ -1,0 +1,9 @@
+package warmups
+
+class HomeController {
+
+    def index() { }
+	def home(){
+		render("Home.gsp")
+		}
+}

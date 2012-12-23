@@ -1,0 +1,36 @@
+#questions{
+position: absolute;
+margin-left:4%;
+width:50%;
+z-index:1;
+}
+
+.indiv{
+position:relative;
+padding-top:6px;
+padding-bottom:6px;
+padding-left:5px;
+margin-bottom:5px;
+color:#000000;
+font-style:normal;
+width:100%;
+z-index:1;
+}
+
+a {
+text-decoration:none;
+}
+
+.indiv #active{
+background-color:#000000;
+}
+
+.answer{
+position:absolute;
+display:none;
+margin-left:56%;
+width:40%;
+margin-top:2%;
+text-align:justify;
+font-size:19px;
+}

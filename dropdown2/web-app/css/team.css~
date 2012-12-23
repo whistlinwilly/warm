@@ -1,0 +1,51 @@
+#title{
+position: absolute;
+margin-left: 520px;
+font-size: 40px;
+z-index: 1;
+}
+
+#chrispic{
+position: absolute;
+margin-left: 546px;
+margin-top: 11%;
+z-index: 1;
+}
+
+#chrisname{
+position: absolute;
+margin-left: 572px;
+margin-top: 55%;
+font-size:20px;
+z-index: 1;
+}
+
+#larryname{
+position: absolute;
+margin-left: 221px;
+margin-top: 55%;
+font-size:20px;
+z-index: 1;
+}
+
+#richname{
+position: absolute;
+margin-left: 924px;
+margin-top: 55%;
+font-size:20px;
+z-index: 1;
+}
+
+#larrypic{
+position: absolute;
+margin-left: 208px;
+margin-top: 11%;
+z-index: 1;
+}
+
+#richpic{
+position: absolute;
+margin-left: 898px;
+margin-top: 11%;
+z-index: 1;
+}

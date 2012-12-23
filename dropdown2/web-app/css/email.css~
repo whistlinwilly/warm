@@ -1,0 +1,36 @@
+#form{
+position:absolute;
+margin-left:195px;
+z-index:1;
+}
+
+#contact_copy{
+position:absolute;
+margin-left:716px;
+margin-top:4%;
+width: 23%;
+text-align:center;
+z-index:1;
+}
+
+#pic{
+position:absolute;
+margin-left:781px;
+margin-top:25%;
+z-index:1;
+}
+
+#form #textbox{
+position:relative;
+margin-top:10px;
+}
+
+#form #input{
+position:relative;
+margin-left:10px;
+}
+
+#form #button{
+position:relative;
+margin-top:10px;
+}

@@ -1,0 +1,36 @@
+#copy{
+font-size: 18px;
+position: fixed;
+margin-left: 612px;
+margin-top: 177px;
+text-align: justify;
+width: 46%;
+z-index: 1;
+}
+
+#title{
+position: fixed;
+color: #BF1900;
+font-weight: bolder;
+margin-left: 30%;
+font-size: 24px;
+margin-top:5px;
+z-index: 1;
+}
+
+#video{
+position: fixed;
+margin-left: 65px;
+margin-top: 191px;
+width: 35%;
+height:44%;
+z-index: 1;
+}
+
+#homeImage{
+position: fixed;
+width: 53%;
+height: 25%;
+margin-left: 300px;
+margin-top: -27px;
+}

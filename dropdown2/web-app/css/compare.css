@@ -1,0 +1,55 @@
+#title{
+position:absolute;
+font-size:28px;
+margin-left:468px;
+margin-top:7px;
+text-align:center;
+z-index:1;
+}
+
+#warmth{
+position: absolute;
+font-size: 18px;
+margin-left: 651px;
+margin-top: 95px;
+width: 46%;
+}
+
+#easy{
+position: absolute;
+font-size: 18px;
+margin-left: 651px;
+margin-top: 218px;
+width: 46%;
+}
+
+#mess{
+position: absolute;
+font-size: 18px;
+margin-left: 651px;
+margin-top: 286px;
+width: 46%;
+}
+
+#nutrition{
+position: absolute;
+font-size: 18px;
+margin-left: 651px;
+margin-top: 341px;
+width: 46%;
+}
+
+#comparepic{
+position: absolute;
+width: 645px;
+height: 500px;
+z-index: -1;
+}
+
+#experience{
+position: absolute;
+font-size: 18px;
+margin-left: 651px;
+margin-top: 416px;
+width: 46%;
+}

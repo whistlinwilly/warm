@@ -1,0 +1,11 @@
+package dropdown
+
+class ShopController {
+
+static navigation = true
+
+    def index() {
+        render(view:"Shop")
+         }
+
+}

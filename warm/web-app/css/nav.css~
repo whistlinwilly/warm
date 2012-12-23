@@ -1,0 +1,15 @@
+h1{
+background:#bf1900;
+color:#bf1900;
+height:7px;
+font-size:1px;
+margin-top:-5px;
+}
+
+h2{
+background:#bf1900;
+color:#bf1900;
+height:7px;
+font-size:1px;
+margin-top:-5px;
+}

@@ -1,0 +1,11 @@
+<html>
+<g:render template="/navbar"></g:render>
+
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'nav.css')}" type="text/css">
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'prodlanding.css')}" type="text/css">
+<g:link controller="products" action="original"><img id="orig" src="${resource(dir: 'images', file: 'original.jpg')}" width="330px" height="330px"></g:link>
+<g:link controller="products" action="joints"><img id="joints" src="${resource(dir: 'images', file: 'joints.jpg')}" width="330px" height="330px"></g:link>
+<g:link controller="products" action="coat"><img id="skin" src="${resource(dir: 'images', file: 'coat.jpg')}" width="330px" height="330px"></g:link>
+<g:link controller="products" action="fit"><img id="fit" src="${resource(dir: 'images', file: 'fit.jpg')}" width="330px" height="330px"></g:link>
+</body>
+</html>

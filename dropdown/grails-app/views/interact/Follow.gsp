@@ -1,0 +1,23 @@
+<html>
+<g:render template="/navbar"></g:render>
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'nav.css')}" type="text/css">
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'follow.css')}" type="text/css">
+<body>
+<div id="copy">
+Like our product? Help us spread the word! Visit us at the below sites and help us create some buzz!
+</div>
+
+<div id="gplus">
+<a href="#"><img src="${resource(dir: 'images', file: 'gplus.png')}" height="100px" width="100px" onClick='window.open ("http://www.google.com","mywindow","menubar=1,resizable=1,width=470,height=510");'></a></div>
+
+<div id="pinit">
+<a href="#"><img src="${resource(dir: 'images', file: 'pinit.jpg')}" height="100px" width="132px" onClick='window.open ("http://www.google.com","mywindow","menubar=1,resizable=1,width=470,height=510");'></a></div>
+
+<div id="fb"><a href="#"><img src="${resource(dir: 'images', file: 'facebook.png')}" height="100px" width="100px" onClick='window.open ("http://www.facebook.com/pages/Bill-Murray/40950792955","mywindow","menubar=1,resizable=1,width=470,height=510");'></a></div>
+
+<div id="blog"><a href="#"><img src="${resource(dir: 'images', file: 'blog.png')}" height="100px" width="100px" onClick='window.open ("http://www.facebook.com/pages/Bill-Murray/40950792955","mywindow","menubar=1,resizable=1,width=470,height=510");'></a></div>
+
+<div id="twit">
+<a href="#"><img src="${resource(dir: 'images', file: 'twitter.png')}" height="120px" width="120px" onClick='window.open ("https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A8080%2Fdropdown%2Fhome%2Findex&screen_name=BillMurray&source=followbutton&variant=2.0","mywindow","menubar=1,resizable=1,width=470,height=510");'></a></div>
+</body>
+</html>
